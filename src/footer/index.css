@@ -1,0 +1,30 @@
+.footer {
+  background-color: white;
+  box-sizing: border-box;
+  border-top: 1px solid gray;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  height: 3rem;
+  transition: height ease-in-out 0.5s;
+}
+
+.footer.open {
+  height: 10rem;
+}
+
+.arrow {
+  position: absolute;
+  fill: #1d1d1b;
+  padding: 1rem;
+  right: 0;
+  top: 0;
+  width: 1rem;
+  cursor: pointer;
+  transition: transform ease-in-out 0.5s;
+}
+
+.arrow.open {
+  transform: rotateX(180deg);
+}

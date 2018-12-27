@@ -1,0 +1,8 @@
+.content {
+  padding: 1rem;
+  background-attachment: fixed;
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: url(http://res.cloudinary.com/lush/image/upload/v1400752751/ingredients/hero/2014/05/Fresh%20Sea%20Water%20Hero.jpg);
+}
